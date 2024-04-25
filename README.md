@@ -1,16 +1,17 @@
-# advflutterch1
+<h1 align="center">🔥 Advance Flutter Chapter 1 🔥</h1>
 
-A new Flutter project.
+###
 
-## Getting Started
+<h3 align="center"> 1. Switch Dark Theme to Light Theme </h3>
 
-This project is a starting point for a Flutter application.
+###
 
-A few resources to get you started if this is your first Flutter project:
+<div align="center">
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/6dd054e0-e051-4aba-b29d-6b98a1caff42"  />
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/f59605e7-9d86-494e-828d-3740ff171a84"  />
+  <video src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/1d31f142-34d4-4c92-ab38-13d1ecc9fd65">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
