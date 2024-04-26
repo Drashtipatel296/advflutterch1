@@ -42,14 +42,10 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
           },
           onStepCancel: () {
             setState(() {
-              if(GlobalStepperValues.firstIndex==2)
-              {
-
+              if (GlobalStepperValues.firstIndex == 2) {
                 GlobalStepperValues.firstIndex--;
-              }
-              else{
-
-                GlobalStepperValues.firstIndex=0;
+              } else {
+                GlobalStepperValues.firstIndex = 0;
               }
             });
           },
@@ -70,12 +66,26 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
                 children: [
                   TextField(
                     decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
                       labelText: 'Enter Your Fist Name',
+                      prefixIcon: Icon(Icons.person),
                     ),
                   ),
                   TextField(
                     decoration: InputDecoration(
                       labelText: 'Enter Your Last Name',
+                      prefixIcon: Icon(Icons.person),
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
                     ),
                   ),
                 ],
@@ -89,18 +99,40 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
                     decoration: InputDecoration(
                       prefixIcon: Icon(Icons.email),
                       hintText: 'Email',
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
                     ),
                   ),
-                  SizedBox(height: 30,),
+                  SizedBox(
+                    height: 30,
+                  ),
                   TextField(
                     decoration: InputDecoration(
                       prefixIcon: Icon(Icons.home),
                       hintText: 'Address',
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
                     ),
                   ),
-                  SizedBox(height: 30,),
+                  SizedBox(
+                    height: 30,
+                  ),
                   TextField(
                     decoration: InputDecoration(
+                      border: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
                       prefixIcon: Icon(Icons.phone),
                       hintText: 'Mobile No',
                     ),
@@ -110,10 +142,9 @@ class _HorizontalStepperState extends State<HorizontalStepper> {
             ),
             Step(
               title: Text('Upload'),
-              content: TextField(
-                decoration: InputDecoration(
-                  labelText: 'Mobile Number',
-                ),
+              content: Text(
+                'Registration Successfully Completed !!',
+                style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500),
               ),
             ),
           ],

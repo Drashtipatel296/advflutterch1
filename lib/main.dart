@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/horizontal',
       routes: {
-       // '/' : (context) => const HomePage(),
-       // '/stepper' : (context) => const StepperApp(),
+        '/' : (context) => const HomePage(),
+        '/stepper' : (context) => const StepperApp(),
         '/horizontal' : (context) => const HorizontalStepper(),
       },
     );
