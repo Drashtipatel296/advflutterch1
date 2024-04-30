@@ -14,7 +14,7 @@
 
 <div align="center">
     <a href="https://github.com/Drashtipatel296/advflutterch1/blob/master/lib/screens/theme_change/view/screen/home_screen.dart">👉 📚 Go to dart file 📚 👈</a>
-  </div>
+</div>
 
 ###
 
@@ -30,5 +30,20 @@
 
 <div align="center">
     <a href="https://github.com/Drashtipatel296/advflutterch1/tree/master/lib/screens/stepper/view">👉 📚 Go to dart file 📚 👈</a>
-  </div>
+</div>
+
+<h3 align="center"> 4. Provider & Change Theme using Provider </h3>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/06d9c96f-df0c-46ee-967a-9ea529b90ed0"/>
+  <video src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/8c28c19c-42ac-4091-8ddb-ad5618393f7a">
+</div>
+
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/advflutterch1/tree/master/lib/screens/change_theme_using_provider">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+
 
