@@ -14,7 +14,7 @@
 
 <div align="center">
     <a href="https://github.com/Drashtipatel296/advflutterch1/blob/master/lib/screens/theme_change/view/screen/home_screen.dart">👉 📚 Go to dart file 📚 👈</a>
-  </div>
+</div>
 
 ###
 
@@ -30,5 +30,30 @@
 
 <div align="center">
     <a href="https://github.com/Drashtipatel296/advflutterch1/tree/master/lib/screens/stepper/view">👉 📚 Go to dart file 📚 👈</a>
-  </div>
+</div>
+
+<h3 align="center"> 4. Provider & Change Theme using Provider </h3>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/06d9c96f-df0c-46ee-967a-9ea529b90ed0"/>
+  <video src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/8c28c19c-42ac-4091-8ddb-ad5618393f7a">
+</div>
+
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/advflutterch1/tree/master/lib/screens/change_theme_using_provider">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/c12f36ca-089d-46cf-bd69-7e04bfa1ecb7"  />
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/ffc364c5-604a-4b68-9c38-7754d328950b"/>
+  <video src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/7064b0dd-5ed6-4779-b73c-22616074dc03">
+</div>
+
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/advflutterch1/tree/master/lib/screens/change_theme_using_provider">👉 📚 Go to dart file 📚 👈</a>
+</div>
 
