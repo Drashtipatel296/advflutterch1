@@ -4,11 +4,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 class IntroProvider extends ChangeNotifier {
   bool isClicked = false;
 
-  void click(){
-    isClicked = true;
-    notifyListeners();
-  }
-
   Future<void> onPressed() async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     preferences.setBool('isChecked', true);
@@ -16,7 +11,7 @@ class IntroProvider extends ChangeNotifier {
 
   Future<void> getAnswer() async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
-    preferences.getBool('isChecked') ?? false;
+    isClicked = preferences.getBool('isChecked') ?? false;
     notifyListeners();
   }
   IntroProvider(){

@@ -47,7 +47,7 @@ class NextScreen2 extends StatelessWidget {
           const Spacer(),
           TextButton(
             onPressed: () {
-              Provider.of<IntroProvider>(context, listen: false).click();
+              Provider.of<IntroProvider>(context, listen: false).onPressed();
               Navigator.of(context).pushNamed('/intro3');
             },
             child: const Text(
