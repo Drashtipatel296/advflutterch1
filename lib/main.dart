@@ -1,7 +1,9 @@
 import 'package:advflutterch1/screens/change_theme_using_provider/provider/counter_provider.dart';
 import 'package:advflutterch1/screens/change_theme_using_provider/provider/theme_provider.dart';
 import 'package:advflutterch1/screens/one_time_intro_screen/provider/intro_provider.dart';
-import 'package:advflutterch1/screens/Contact_Us_Page_With_Interaction/view/contact_us.dart';
+import 'package:advflutterch1/screens/photo_gallery_with_biometric_authentication/provider/gallery_provider.dart';
+import 'package:advflutterch1/screens/photo_gallery_with_biometric_authentication/view/gallery_screen.dart';
+import 'package:advflutterch1/screens/photo_gallery_with_biometric_authentication/view/hide_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -18,6 +20,9 @@ void main() {
         ChangeNotifierProvider(
           create: (context) => IntroProvider(),
         ),
+        ChangeNotifierProvider(
+          create: (context) => GalleryProvider(),
+        )
       ],
       child: const MyApp(),
     ),
@@ -30,7 +35,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const ContactApp(),
+      home: const GalleryApp(),
       themeMode: Provider.of<ThemeChangeProvider>(context, listen: true).isDark
           ? ThemeMode.dark
           : ThemeMode.light,
