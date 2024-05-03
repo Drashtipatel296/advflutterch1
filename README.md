@@ -85,18 +85,19 @@
     <a href="https://github.com/Drashtipatel296/advflutterch1">👉 📚 Go to dart file 📚 👈</a>
 </div>
 
+<h3 align="center"> 7. Photo Gallery With Biometric Authentication </h3>
 
+###
 
+<div align="center">
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/e4089bbe-2b16-4598-a78c-7420c1f9703f"/>
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/c862676b-e619-486e-a63a-dec2a9930b3a"/>
+  <img height="550" src="https://github.com/Drashtipatel296/advflutterch1/assets/143180636/6b582ead-7543-488e-ad03-5f5d90e013f4"/>
+</div>
 
-
-
-
-
-
-
-
-
-
+<div align="center">
+    <a href="https://github.com/Drashtipatel296/advflutterch1">👉 📚 Go to dart file 📚 👈</a>
+</div>
 
 
 
