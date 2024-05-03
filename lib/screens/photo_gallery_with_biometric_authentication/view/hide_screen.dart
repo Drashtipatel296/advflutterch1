@@ -28,10 +28,10 @@ class HideScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.symmetric(vertical: 20, horizontal: 15),
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
         child: Column(
           children: [
-            Row(
+            const Row(
               children: [
                 Text(
                   'Today',
@@ -49,16 +49,19 @@ class HideScreen extends StatelessWidget {
             ),
             GridView.builder(
               shrinkWrap: true,
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 5,
-              childAspectRatio: 5/6,
-            ), itemBuilder: (context, index) => hideView(
-              hideImage[index],
-            ),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 5,
+                childAspectRatio: 5 / 6,
+              ),
+              itemBuilder: (context, index) => hideView(
+                hideImage[index],
+              ),
               itemCount: hideImage.length,
             ),
-            SizedBox(height: 20,),
-            Row(
+            const SizedBox(
+              height: 20,
+            ),
+            const Row(
               children: [
                 Text(
                   'Today',
@@ -76,12 +79,13 @@ class HideScreen extends StatelessWidget {
             ),
             GridView.builder(
               shrinkWrap: true,
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 5,
-              childAspectRatio: 5/6,
-            ), itemBuilder: (context, index) => hideView(
-              hideImage[index],
-            ),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 5,
+                childAspectRatio: 5 / 6,
+              ),
+              itemBuilder: (context, index) => hideView(
+                hideImage[index],
+              ),
               itemCount: 15,
             ),
           ],
@@ -92,17 +96,17 @@ class HideScreen extends StatelessWidget {
 
   Widget hideView(String img) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 5,vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
       child: Container(
-              decoration: BoxDecoration(
-                color: Colors.black12,
-                borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
-                  fit: BoxFit.cover,
-                  image: AssetImage(img),
-                ),
-              ),
-            ),
+        decoration: BoxDecoration(
+          color: Colors.black12,
+          borderRadius: BorderRadius.circular(10),
+          image: DecorationImage(
+            fit: BoxFit.cover,
+            image: AssetImage(img),
+          ),
+        ),
+      ),
     );
   }
 }

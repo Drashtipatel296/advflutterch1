@@ -61,7 +61,7 @@ class GalleryApp extends StatelessWidget {
                   onSelected: (String value) async {
                     if(value == 'Hide Folder'){
                       if(await Provider.of<GalleryProvider>(context, listen: false).checkFingerprint()){
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => HideScreen(),),);
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => const HideScreen(),),);
                       }
                     }
                   },
